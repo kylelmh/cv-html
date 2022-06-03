@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "name": "株式会社ArchiBase",
+      "start": "2020/11",
+      "end": "2021/12",
+      "position": "フルスタックウェブエンジニア",
+      "status": "パート",
+      "description": 
+        [
+          "自社ウェブアプリの機能設計・実装",
+          "AWSによる社内タスクの自動化",
+          "クローラーのメンテ",
+          "コードレビューと作動テスト"
+        ],
+      "examples": 
+        [
+          "Vue と Rails で検索オートコンプリート機能の実装",
+          "静的サイトをSPAへのリファクタリング",
+          "フリーワード検索の実装",
+          "AWS Lambdaでバックアップスクリプトの作成"
+        ],
+      "skills": 
+        [
+          "Ruby on rails",
+          "Vue.js",
+          "MySQL",
+          "Docker",
+          "Python"
+        ]
+    },
+    {
+      "name": "ラトナ株式会社",
+      "start": "2022/4",
+      "end": "現在",
+      "position": "エンジニア",
+      "status": "正社員",
+      "description" : 
+        [
+          "社内インフラの管理と新規開発",
+          "機械学習モデルのコンテナ化・デプロイ",
+          "MVPのプロトタイプ作成",
+          "クライアント企業への提案書作成・基本設計"
+        ],
+      "examples": 
+        [
+          "社内用の勤怠管理ツールをDjangoで作成",
+          "Reactでエッジデバイスのフロントエンドのプロトタイピング",
+          "Ansibleでエッジデバイスの環境開発の維持",
+          "DockerやKubernetesによるデプロイメント"
+        ],
+      "skills":
+        [
+          "Python",
+          "Django",
+          "nginx",
+          "Ansible",
+          "Linux",
+          "Machine learning",
+          "C++",
+          "Docker",
+          "compose",
+          "React",
+          "Kubernetes",
+          "Consulting",
+          "RabbitMQ",
+          "Postgres"
+        ]
+    }
+  ]
+}

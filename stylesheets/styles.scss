@@ -1,0 +1,186 @@
+@import "sheets-of-paper-a4.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  padding-bottom: 9px;
+  margin: 9px 0;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  min-width: 64px;
+}
+
+.p__basic_info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+}
+
+.-inline {
+  display: inline-block;
+}
+
+.-right {
+  float: right;
+}
+
+.p__literal {
+  white-space: pre-line;
+  min-width: 100px;
+}
+
+.p__skill_tag {
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 3px 5px;
+  margin: 3px;
+  display: inline-block;
+}
+
+.p__cell-center {
+  display: flex;
+  align-self: center;
+}
+
+.p__portrait {
+  height: 40mm;
+  width: 30mm;
+  float: right;
+  overflow: hidden;
+  border: solid 1px #bbb;
+  margin-top: 25px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.p__section {
+  margin-bottom: 25px;
+}
+
+.p__job{
+  background-color: #eee;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.p__descriptor {
+  font-size: 10px;
+  display: flex;
+  align-content: center;
+}
+
+.p__skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.p__skill_card {
+  display: inline-block;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.p__skill_levels {
+  svg {
+    display: inline-block;
+    height: 12px;
+    width: 50px;
+    vertical-align: top;
+  }
+}
+
+.flexbox {
+  display: flex;
+  align-content: center;
+  align-items:  center;
+  gap: 25px;
+  &.-nogap {
+    gap: 0;
+  }
+}
+
+.-gray {
+  background-color: #eee;
+}
+
+.p__flag { 
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 32px;
+  color: #bbb;
+  display: block;
+  transition: 0.3s;
+  &.active {
+    background-color: #42b883;
+    color: #fff;
+  }
+}
+
+.p__locale_selector {
+  border-radius: 5px;
+  background-color: #fff;
+  position: fixed;
+  top: 100px;
+  left: 64px;
+  input {
+    display: none;
+  }
+}
+
+.p__print_btn {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background-color: #42b883;
+  }
+}
+
+.no-print {
+  @media print {
+    display: none
+  }
+}

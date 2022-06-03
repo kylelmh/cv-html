@@ -1,0 +1,89 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "level": "Graduate school",
+      "description": "論文の読み書きができる",
+      "cert": "TOEIC 990点"
+    },
+    {
+      "name": "Japanese",
+      "level": "Graduate school",
+      "description": "論文が読める",
+      "cert": "日本語能力試験１級"
+    },
+    {
+      "name": "Chinese",
+      "level": "High school",
+      "description": "ネィティブ高卒レベル"
+    }
+  ],
+  "programming": [
+    {
+      "name": "Python",
+      "level": 5,
+      "frameworks": [
+        "Django",
+        "numpy",
+        "scipy",
+        "matplotlib",
+        "tensorflow"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "level": 5,
+      "frameworks": [
+        "Vue",
+        "React",
+        "jQuery",
+        "NodeJS",
+        "axios",
+        "vite"
+      ]
+    },
+    {
+      "name": "Ruby on rails",
+      "level": 4,
+      "frameworks": [
+        "slim",
+        "bundle",
+        "rspec",
+        "rubocop",
+        "ridgepole"
+      ]
+    },
+    {
+      "name": "C",
+      "level": 2,
+      "frameworks": [
+        "rabbitmq-c",
+        "組み込み",
+        "cuda",
+        "darknet"
+      ]
+    },
+    {
+      "name": "Linux関連",
+      "level": 4,
+      "frameworks": [
+        "sshd",
+        "vsftpd",
+        "softether",
+        "openvpn",
+        "Ansible",
+        "docker"
+      ]
+    } 
+  ],
+  "others": [
+    {
+      "name": "Data visualization",
+      "level": 3,
+      "frameworks": [
+        "Paraview",
+        "matplotlib"
+      ]
+    }
+  ]
+}

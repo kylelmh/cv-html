@@ -1,0 +1,89 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "level": "Graduate school",
+      "description": "Can read/write academic papers",
+      "cert": "TOEFL ibt 116"
+    },
+    {
+      "name": "Japanese",
+      "level": "Graduate school",
+      "description": "Can read academic papers",
+      "cert": "JLPT N1"
+    },
+    {
+      "name": "Chinese",
+      "level": "High school",
+      "description": "Can read/write at a high school level (native)"
+    }
+  ],
+  "programming": [
+    {
+      "name": "Python",
+      "level": 5,
+      "frameworks": [
+        "Django",
+        "numpy",
+        "scipy",
+        "matplotlib",
+        "tensorflow"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "level": 5,
+      "frameworks": [
+        "Vue",
+        "React",
+        "jQuery",
+        "NodeJS",
+        "axios",
+        "vite"
+      ]
+    },
+    {
+      "name": "Ruby on rails",
+      "level": 4,
+      "frameworks": [
+        "slim",
+        "bundle",
+        "rspec",
+        "rubocop",
+        "ridgepole"
+      ]
+    },
+    {
+      "name": "C",
+      "level": 2,
+      "frameworks": [
+        "rabbitmq-c",
+        "embedded",
+        "cuda",
+        "darknet"
+      ]
+    },
+    {
+      "name": "Linux related",
+      "level": 4,
+      "frameworks": [
+        "sshd",
+        "vsftpd",
+        "softether",
+        "openvpn",
+        "Ansible",
+        "docker"
+      ]
+    } 
+  ],
+  "others": [
+    {
+      "name": "Data visualization",
+      "level": 3,
+      "frameworks": [
+        "Paraview",
+        "matplotlib"
+      ]
+    }
+  ]
+}

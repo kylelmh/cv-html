@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "name": "Archibase",
+      "start": "2020/11",
+      "end": "2021/12",
+      "position": "Full-stack web developer",
+      "status": "Part-time/internship",
+      "description": 
+        [
+          "Designed, proposed, and implemented new features for existing web applications",
+          "Implemented feature requests into actual code",
+          "Automated company tasks with AWS",
+          "Maintained web crawlers following website updates",
+          "Performed code reviews and tests for pull requests"
+        ],
+      "examples": 
+        [
+          "Created Vue frontend and Ruby backends for search autocompletion",
+          "Refactored static search page to single page application",
+          "Implemented free text search that matched to existing database tags",
+          "Deployed AWS Lambda instances to backup company data"
+        ],
+      "skills": 
+        [
+          "Ruby on rails",
+          "Vue.js",
+          "MySQL",
+          "Docker",
+          "Python"
+        ]
+    },
+    {
+      "name": "Latona Inc.",
+      "start": "2022/4",
+      "end": "ongoing",
+      "position": "Engineer",
+      "status": "Full-time",
+      "description" : 
+        [
+          "Maintenance and development internal company infrastructure",
+          "Containerization and deployment of machine learning models",
+          "Prototyping of MVPs",
+          "Creating proposals for clients seeking technical consultations"
+        ],
+      "examples": 
+        [
+          "Creation of new company tool for attendance management in Django",
+          "Prototyping of edge device frontends in React",
+          "Maintenance of Ansible scripts for nvidia Jetson edge devices",
+          "Deployment of machine learning models with Docker and Kubernetes onto nvidia Jetson devices."
+        ],
+      "skills":
+        [
+          "Python",
+          "Django",
+          "nginx",
+          "Ansible",
+          "Linux",
+          "Machine learning",
+          "C++",
+          "Docker",
+          "compose",
+          "React",
+          "Kubernetes",
+          "Consulting",
+          "RabbitMQ",
+          "Postgres"
+        ]
+    }
+  ]
+}

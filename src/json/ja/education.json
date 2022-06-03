@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "name": "京都大学",
+      "faculty": "工学部",
+      "department": "地球工学科",
+      "start": "2015/4",
+      "end": "2019/3",
+      "research": "コンクリート構造劣化の化学特性について", 
+      "publications":
+      [
+        "Hamura, Y, Lee, H, Ueda, N et al. (2019) Basic study on reaction products in ASR with Raman spectroscopy. Proceedings of the fib Symposium 2019: Concrete - Innovations in Materials, Design and Structures, pp. 2112-2117."
+      ]
+    },
+    {
+      "name": "兵役（台湾）",
+      "faculty": "代替役",
+      "department": "台湾內政部役政署", 
+      "start": "2019/9",
+      "end": "2020/2",
+      "awards": ["績優役男（成績優良）"]
+    },
+    {
+      "name": "京都大学",
+      "faculty": "工学研究科",
+      "department": "社会基盤工学",
+      "research": "画像解析と有限要素法によるコンクリート劣化の可視化",
+      "start": "2020/4",
+      "end": "2022/3"
+    }
+  ]
+}

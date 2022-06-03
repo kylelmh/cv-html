@@ -1,0 +1,26 @@
+@mixin u-mb($value){
+  margin-bottom: 1px*$value !important;
+}
+
+@mixin u-ml($value){
+  margin-left: 1px*$value !important;
+}
+
+@for $i from 1 through 20 {
+  .u-mb#{$i}{
+    @include u-mb($i);
+  }
+
+  .u-ml#{$i}{
+    @include u-ml($i);
+  }}
+
+@mixin u-fs($value){
+  font-size: 1px*$value !important;
+}
+
+@for $i from 6 through 24 {
+  .u-fs#{$i}{
+    @include u-fs($i);
+  }
+}
