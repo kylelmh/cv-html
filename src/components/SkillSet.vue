@@ -54,13 +54,13 @@ export default {
     import(`../json/${this.$i18n.locale}/skills.json`)
     .then( (e) => {this.skills = e.default} )
     import(`../json/${this.$i18n.locale}/levels.json`)
-    .then( (e) => {this.levels = e.default; console.log(e)} )
+    .then( (e) => {this.levels = e.default} )
   },
   beforeUpdate(){
     import(`../json/${this.$i18n.locale}/skills.json`)
     .then( (e) => {this.skills = e.default} )
     import(`../json/${this.$i18n.locale}/levels.json`)
-    .then( (e) => {this.levels = e.default; console.log(e)} )
+    .then( (e) => {this.levels = e.default} )
   }
 }
 </script>
