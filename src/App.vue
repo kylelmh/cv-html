@@ -9,10 +9,10 @@
   <div>
     <div class="no-print">
       <div class="p__locale_selector">
-        <input type="radio" id="en" v-model="locale" value="en">
-        <label for="en" class="p__flag" :class="{ active: locale == 'en' }"> en </label>
-        <input type="radio" id="ja" v-model="locale" value="ja">
-        <label for="ja" class="p__flag" :class="{ active: locale == 'ja' }"> ja </label>
+        <input type="radio" id="en" v-model="lang" value="en">
+        <label for="en" class="p__flag" :class="{ active: lang == 'en' }"> en </label>
+        <input type="radio" id="ja" v-model="lang" value="ja">
+        <label for="ja" class="p__flag" :class="{ active: lang == 'ja' }"> ja </label>
       </div>
       <div class="bi-printer p__print_btn" v-on:click="print"></div>
     </div>
@@ -34,7 +34,7 @@
 <script>
 export default {
   computed: {
-    locale: {
+    lang: {
       get(){
         return this.$i18n.locale
       },
