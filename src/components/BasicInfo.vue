@@ -9,7 +9,7 @@
   <i class="bi-github u-ml10"></i>
   <a class="u-ml5" :href="'https://www.github.com/' + basic_info.github">github.com/{{basic_info.github}}</a>
   <i class="bi-link-45deg u-ml10"></i>
-  <a class="u-ml5" :href="'https://' + basic_info.githubio + '.github.io'">{{basic_info.githubio}}.github.io</a>
+  <a class="u-ml5" :href="'https://' + basic_info.githubio + '.github.io/cv-html'">{{basic_info.githubio}}.github.io/cv-html</a>
   </div>
 </div>
 </template>
