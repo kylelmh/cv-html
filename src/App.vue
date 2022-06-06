@@ -33,18 +33,21 @@
 
 <script>
 export default {
-  data() {
-    return {
-      lang: this.$i18n.locale
+  computed: {
+    lang: {
+      get(){
+        return this.$i18n.locale
+      },
+      set(e){
+        // console.log(e)
+        this.$i18n.locale = e
+      }
     }
   },
   methods: {
     print(){
       window.print()
     }
-  },
-  beforeUpdate(){
-    this.$i18n.locale = this.lang
   }
 }
 </script>
