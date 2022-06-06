@@ -1,1 +1,0 @@
-const e="Lee Mengheng \uFF08\u674E\u5B5F\u6052\uFF09",n="080-6123-1512",o="kyle.lhe@gmail.com",i="kylelmh",t="kylelmh";var h={name:e,phone:n,email:o,github:i,githubio:t};export{h as default,o as email,i as github,t as githubio,e as name,n as phone};

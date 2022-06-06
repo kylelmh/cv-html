@@ -1,1 +1,0 @@
-var a={2:"can write code following a reference sample",3:"can join a project with some onboarding",4:"can join a project with minimal onboarding",5:"can create a production ready project/library from scratch"};export{a as default};
