@@ -1,0 +1,73 @@
+.p__flag { 
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 32px;
+  color: #bbb;
+  display: block;
+  transition: 0.3s;
+  &.active {
+    background-color: #42b883;
+    color: #fff;
+  }
+}
+
+.p__locale_selector {
+  border-radius: 5px;
+  background-color: #fff;
+  position: fixed;
+  top: 5vw;
+  left: 2vw;
+  input {
+    display: none;
+  }
+}
+
+.p__print_btn {
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background-color: #42b883;
+  }
+}
+
+.no-print {
+  @media print {
+    display: none
+  }
+}
+
+nav {
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 8px auto;
+  width: fit-content;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  a {
+    padding: 8px;
+    border-radius: 8px;
+    min-width: 64px;
+    flex-basis: content;
+    flex-grow: 2;
+    color: #bbb;
+    transition: 0.3s;
+  }
+  a.active {
+    color: #fff;
+    background-color: #42b883;
+  }
+}

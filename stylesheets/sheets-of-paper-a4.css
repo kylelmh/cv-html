@@ -27,3 +27,8 @@
    /* Margin per single side of the page */
   margin: 2cm;
  }
+
+
+.document > :first-child {
+  margin-top: 0;
+}
