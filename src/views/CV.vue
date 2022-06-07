@@ -45,7 +45,7 @@ export default {
 }
 </script>
 
-<style>
-@import url("../../stylesheets/cv.scss")
+<style lang="scss">
+@import "../../stylesheets/cv.scss";
 
 </style>

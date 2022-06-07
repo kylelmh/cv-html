@@ -48,6 +48,16 @@
   }
 }
 
+.flexbox {
+  display: flex;
+  align-content: center;
+  align-items:  center;
+  gap: 25px;
+  &.-nogap {
+    gap: 0;
+  }
+}
+
 nav {
   font-size: 18px;
   border-radius: 8px;
