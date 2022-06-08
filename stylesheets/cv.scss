@@ -110,6 +110,8 @@ h1, h2, h3, h4 {
 }
 
 .p__skill_levels {
+  display: grid;
+  grid-template-columns: auto 1fr;
   svg {
     display: inline-block;
     height: 12px;

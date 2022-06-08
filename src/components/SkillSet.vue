@@ -26,7 +26,7 @@ import SkillCard from "./SkillCard.vue";
     <div class="p__skills u-mb10">
       <SkillCard :lang=lang v-for="(lang) in skills.programming"></SkillCard>
     </div>
-    <div class="p__basic_info p__skill_levels u-ml10" v-for="(v,k) in levels">
+    <div class="p__skill_levels flexbox u-ml10" v-for="(v,k) in levels">
       <div class="p__cell-center">
         <svg viewBox="15 0 6 6" xmlns="http://www.w3.org/2000/svg">
         <circle v-for="(i) in k*1" :cx="3+i*5" cy="3" r="1.5" stroke="black"/>

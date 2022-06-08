@@ -1,6 +1,6 @@
 <template>
-<div class="p__skill_card p__skill_levels">
-  <div class="flexbox ">
+<div class="p__skill_card">
+  <div class="p__skill_levels flexbox">
     <h4> {{lang.name}}</h4>
     <svg viewBox="15 0 6 6" xmlns="http://www.w3.org/2000/svg">
     <circle v-for="(i) in lang.level" :cx="3+i*5" cy="3" r="1.5" stroke="black"/>

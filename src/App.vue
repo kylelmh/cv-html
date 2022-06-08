@@ -5,10 +5,10 @@
 <template>
   <div>
     <div class="bi-printer p__print_btn no-print" v-on:click="print"></div>
-    <nav class="no-print">
+    <!-- <nav class="no-print">
       <RouterLink to="/" :active-class="'active'"> CV </RouterLink>
       <RouterLink to="/letter" :active-class="'active'"> Cover Letter </RouterLink>
-    </nav>
+    </nav> -->
     <RouterView></RouterView>
   </div>
 </template>
