@@ -12,6 +12,9 @@
     <RouterView></RouterView>
   </div>
 </template>
+<style lang="scss">
+@import "../stylesheets/main.scss";
+</style>
 
 <script>
 export default {
