@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import App from './App.vue'
 import {messages} from './locales/app.js'
-import router from './router'
+import router from './scripts/router'
 const i18n = createI18n({
   locale: 'en',
   fallbackLocale: 'ja',

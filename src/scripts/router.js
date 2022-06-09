@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CV from '../views/CV.vue'
+
+const CV = () => import('../views/CV.vue')
+// const CoverLetter = () => import ('../views/CoverLetter.vue')
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,11 +11,11 @@ const router = createRouter({
       name: "cv",
       component: CV,
     },
-    {
-      path: "/letter",
-      name: "letter",
-      component: () => import("../views/CoverLetter.vue"),
-    },
+    // {
+    //   path: "/letter",
+    //   name: "letter",
+    //   component: CoverLetter
+    // },
   ]
 })
 
