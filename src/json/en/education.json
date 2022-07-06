@@ -15,7 +15,7 @@
     {
       "name": "Military service (Taiwan)",
       "faculty": "Alternate service",
-      "department": "Ministry of of the Interior", 
+      "department": "Ministry of the Interior", 
       "start": "2019/9",
       "end": "2020/2",
       "awards": ["Awarded for Excellence in Duty"]
@@ -23,7 +23,7 @@
     {
       "name": "Kyoto University",
       "faculty": "Graduate School of Engineering",
-      "department": "School Civil and Earth Resources Engineering",
+      "department": "Civil and Earth Resources Engineering",
       "research": "Creating full field strain visualizations of deteriorating concrete samples with digital image correlation and finite element analysis",
       "start": "2020/4",
       "end": "2022/3"
