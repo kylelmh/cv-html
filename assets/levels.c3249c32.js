@@ -1,0 +1,1 @@
+var e={2:"Can develop new features while referring to existing code",3:"Can develop new features from scratch",4:"Can develop an entire service from scratch",5:"Can develop a scalable service from scratch"};export{e as default};
