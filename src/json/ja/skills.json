@@ -24,20 +24,16 @@
       "level": 5,
       "frameworks": [
         "Django",
-        "numpy",
-        "scipy",
-        "matplotlib",
-        "tensorflow"
+        "pyzmq",
+        "mediapipe"
       ]
     },
     {
-      "name": "Javascript",
-      "level": 5,
+      "name": "Typescript",
+      "level": 4,
       "frameworks": [
         "Vue",
-        "React",
-        "jQuery",
-        "NodeJS",
+        "Svelte",
         "axios",
         "vite"
       ]
@@ -54,35 +50,23 @@
       ]
     },
     {
-      "name": "C",
-      "level": 2,
+      "name": "Go",
+      "level": 4,
       "frameworks": [
-        "rabbitmq-c",
-        "組み込み",
-        "cuda",
-        "darknet"
+        "sqlboiler",
+        "sql-migrate",
+        "gin-gonic",
+        "chi"
       ]
     },
     {
-      "name": "Linux関連",
+      "name": "デザインパターン",
       "level": 4,
       "frameworks": [
-        "sshd",
-        "vsftpd",
-        "softether",
-        "openvpn",
-        "Ansible",
-        "docker"
-      ]
-    } 
-  ],
-  "others": [
-    {
-      "name": "Data visualization",
-      "level": 3,
-      "frameworks": [
-        "Paraview",
-        "matplotlib"
+        "domain driven design",
+        "clean architecture",
+        "MVC",
+        "MVT"
       ]
     }
   ]

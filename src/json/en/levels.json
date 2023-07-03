@@ -1,6 +1,6 @@
 {
-  "5": "can create a production ready project/library from scratch",
-  "4": "can join a project with minimal onboarding",
-  "3": "can join a project with some onboarding",
-  "2": "can write code following a reference sample"
+  "5": "Can develop a scalable service from scratch",
+  "4": "Can develop an entire service from scratch",
+  "3": "Can develop new features from scratch",
+  "2": "Can develop new features while referring to existing code"
 }

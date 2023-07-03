@@ -3,69 +3,77 @@
     {
       "name": "株式会社ArchiBase",
       "start": "2020/11",
-      "end": "2021/12",
+      "end": "現在",
       "position": "フルスタックウェブエンジニア",
       "status": "パートタイム",
-      "description": 
-        [
-          "自社ウェブアプリの機能設計・実装",
-          "AWSによる社内タスクの自動化",
-	"クローラーのメンテナンス",
-  	  "コードレビューと作動テスト"
-        ],
-      "examples": 
-        [
-          "Vue と Rails で検索オートコンプリート機能の実装",
-          "静的サイトをSPAへのリファクタリング",
-          "フリーワード検索の実装",
-          "AWS Lambdaでバックアップスクリプトの作成"
-        ],
-      "skills": 
-        [
-          "Ruby on rails",
-          "Vue.js",
-          "MySQL",
-          "Docker",
-          "Python"
-        ]
+      "description": [
+        "自社ウェブアプリの機能設計・実装",
+        "AWSによるタスクの自動化"
+      ],
+      "examples": [
+        "Vue と Rails で検索オートコンプリート機能の実装",
+        "db バリデーション・UTの実装",
+        "静的サイトをSPAへのリファクタリング",
+        "フリーワード検索の実装",
+        "AWS Lambdaで Crawlerタスクの作成"
+      ],
+      "skills": [
+        "Ruby on rails",
+        "Vue.js",
+        "MySQL",
+        "Docker",
+        "Python",
+        "AWS"
+      ]
     },
     {
       "name": "ラトナ株式会社",
       "start": "2022/4",
-      "end": "現在",
+      "end": "2022/12",
       "position": "エンジニア",
       "status": "正社員",
-      "description" : 
-        [
-          "社内インフラの管理と新規開発",
-          "機械学習モデルのコンテナ化・デプロイ",
-          "MVPのプロトタイプ作成",
-          "クライアント企業への提案書作成・基本設計"
-        ],
-      "examples": 
-        [
-          "社内用の勤怠管理ツールをDjangoで作成",
-          "Reactでエッジデバイスのフロントエンドのプロトタイピング",
-          "Ansibleでエッジデバイスの環境開発の維持",
-          "DockerやKubernetesによるデプロイメント"
-        ],
-      "skills":
-        [
-          "Python",
-          "Django",
-          "nginx",
-          "Ansible",
-          "Linux",
-          "Machine learning",
-          "C++",
-          "Docker",
-          "compose",
-          "React",
-          "Kubernetes",
-          "Consulting",
-          "RabbitMQ",
-          "Postgres"
-        ]
+      "description": [
+        "社内インフラの構築・開発",
+        "受託開発の担当",
+        "自社プロダクト開発の担当"
+      ],
+      "examples": [
+        "社内の勤務管理ツールの実装",
+        "社内VPNの構築・運営",
+        "動画採点機能のクラウドAI設計・実装・運用",
+        "エッジデバイスを管理するクラウドプラットフォームのTech Lead"
+      ],
+      "skills": [
+        "Python",
+        "Linux",
+        "Google Cloud",
+        "zeroMQ",
+        "redis",
+        "postgres",
+        "websocket",
+        "Docker",
+        "Go"
+      ]
+    },
+    {
+      "name": "非公開",
+      "start": "2023/1",
+      "end": "現在",
+      "position": "ソフトウェアエンジニア",
+      "status": "正社員",
+      "description": [
+        "自社クラウドプラットフォームの開発担当"
+      ],
+      "examples": [
+        "B2B AI マーケットプレイスの設計・レビュー・運用"
+      ],
+      "skills": [
+        "プロジェクト管理",
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "Go"
+      ]
     }
   ]
 }
