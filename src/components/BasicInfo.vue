@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p class="no-print"> {{ locale }} </p>
     <h1> {{ basic_info.name }} </h1>
     <div class="flexbox">
       <div>
@@ -20,15 +21,25 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
       basic_info: {}
     }
   },
-  beforeCreate() {
-    import(`../json/${this.$i18n.locale}/basic_info.json`)
+  computed: {
+    locale() {
+      return this.$i18n.locale
+    }
+  },
+  mounted() {
+    import(`../json/${this.locale}/basic_info.json`)
       .then((e) => { this.basic_info = e.default })
+  },
+  beforeUpdate(){
+    import(`../json/${this.locale}/basic_info.json`)
+    .then((e) => {this.basic_info = e.default } )
   }
 }
 </script>

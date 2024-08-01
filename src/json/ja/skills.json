@@ -21,16 +21,17 @@
   "programming": [
     {
       "name": "Python",
-      "level": 5,
+      "level": 3,
       "frameworks": [
-        "Django",
+        "FastAPI",
         "pyzmq",
-        "mediapipe"
+        "mediapipe",
+        "Cython"
       ]
     },
     {
       "name": "Typescript",
-      "level": 4,
+      "level": 2,
       "frameworks": [
         "Vue",
         "Svelte",
@@ -40,7 +41,7 @@
     },
     {
       "name": "Ruby on rails",
-      "level": 4,
+      "level": 2,
       "frameworks": [
         "slim",
         "bundle",
@@ -51,7 +52,7 @@
     },
     {
       "name": "Go",
-      "level": 4,
+      "level": 2,
       "frameworks": [
         "sqlboiler",
         "sql-migrate",
@@ -60,13 +61,10 @@
       ]
     },
     {
-      "name": "デザインパターン",
-      "level": 4,
+      "name": "Dart",
+      "level": 2,
       "frameworks": [
-        "domain driven design",
-        "clean architecture",
-        "MVC",
-        "MVT"
+        "Flutter"
       ]
     }
   ]

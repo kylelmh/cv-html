@@ -88,6 +88,13 @@ h1, h2, h3, h4 {
   border-radius: 15px;
   padding: 10px;
   margin: 15px 0;
+	break-inside: avoid !important;
+  &-position {
+    margin: 10px 0;
+  }
+  &-position-name {
+    font-weight: bold;
+  }
 }
 
 .p__descriptor {

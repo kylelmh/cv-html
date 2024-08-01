@@ -11,7 +11,7 @@ export const messages = {
     work_description: "Work description",
     skills: "Skills",
     languages: "Human Languages",
-    planguages: "Not human languages"
+    planguages: "Non human languages"
   },
   ja: {
     cv: "履歴書",
@@ -25,6 +25,6 @@ export const messages = {
     work_description: "仕事内容",
     skills: "スキル",
     languages: "人間の言語",
-    planguages: "人間じゃない言語"
+    planguages: "人間じゃない言語（プログラミング言語）"
   }
 }

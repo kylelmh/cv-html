@@ -30,7 +30,7 @@ import SkillCard from "./SkillCard.vue";
       <div class="p__cell-center">
         <svg viewBox="15 0 6 6" xmlns="http://www.w3.org/2000/svg">
         <circle v-for="(i) in k*1" :cx="3+i*5" cy="3" r="1.5" stroke="black"/>
-        <circle v-for="(i) in 5-k" :cx="3+i*5+k*5" cy="3" r="1.5" fill="none" stroke="black"/>
+        <circle v-for="(i) in 3-k" :cx="3+i*5+k*5" cy="3" r="1.5" fill="none" stroke="black"/>
         </svg>
       </div>
 

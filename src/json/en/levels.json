@@ -1,6 +1,5 @@
 {
-  "5": "Can develop a scalable service from scratch",
-  "4": "Can develop an entire service from scratch",
-  "3": "Can develop new features from scratch",
-  "2": "Can develop new features while referring to existing code"
+  "3": "Can optimize low-level features of the language",
+  "2": "Can start a new project",
+  "1": "Can develop new features in an existing project"
 }
