@@ -10,8 +10,8 @@ export const messages = {
     examples: "Examples",
     work_description: "Work description",
     skills: "Skills",
-    languages: "Human Languages",
-    planguages: "Non human languages"
+    languages: "Languages",
+    planguages: "Software skills"
   },
   ja: {
     cv: "履歴書",
@@ -24,7 +24,7 @@ export const messages = {
     examples: "実績例",
     work_description: "仕事内容",
     skills: "スキル",
-    languages: "人間の言語",
-    planguages: "人間じゃない言語（プログラミング言語）"
+    languages: "言語",
+    planguages: "ソフトウェアスキル",
   }
 }

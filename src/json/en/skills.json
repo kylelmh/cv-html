@@ -2,20 +2,17 @@
   "languages": [
     {
       "name": "English",
-      "level": "Graduate school",
-      "description": "Can read/write academic papers",
+      "description": "Native/bilingual profiency",
       "cert": "TOEFL ibt 116"
     },
     {
       "name": "Japanese",
-      "level": "Graduate school",
-      "description": "Can read academic papers",
+      "description": "Native/bilingual profiency",
       "cert": "JLPT N1"
     },
     {
       "name": "Chinese",
-      "level": "High school",
-      "description": "Can read/write at a high school level (native)"
+      "description": "Native/bilingual profiency"
     }
   ],
   "programming": [
@@ -64,7 +61,19 @@
       "name": "Dart",
       "level": 2,
       "frameworks": [
-        "Flutter"
+        "Flutter",
+        "Riverpod",
+        "OAuth",
+        "iOS & Android billing"
+      ]
+    },
+    {
+      "name": "Design patterns",
+      "level": 2,
+      "frameworks": [
+        "Domain-Driven Design",
+        "Clean Architecture",
+        "MVVT, MVC, MVT"
       ]
     }
   ]

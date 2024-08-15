@@ -1,58 +1,140 @@
 {
   "data": [
     {
-      "name": "Archibase",
-      "start": "2020/11",
-      "end": "ongoing",
-      "position": "Full-stack web developer",
-      "status": "Part-time",
-      "description": [
-        "Designed, proposed, and implemented new features for existing web applications",
-        "Automated company tasks with AWS"
-      ],
-      "examples": [
-        "Created Vue frontend and Ruby backends for search autocompletion",
-        "Refactored static search page to single page application",
-        "Implemented free text search that matched to existing database tags",
-        "Deployed web crawlers on AWS Lambda"
-      ],
-      "skills": [
-        "Ruby on rails",
-        "Vue.js",
-        "MySQL",
-        "Docker",
-        "Python",
-        "AWS"
+      "name": "Sony Semicondutor Solutions Corporation",
+      "positions": [
+        {
+          "name": "DevOps Engineer",
+          "start": "2024/4",
+          "end": "Current",
+          "status": "Full-time",
+          "description": [
+            "Improving of process of software development",
+            "Provide technical support to development teams"
+          ],
+          "examples": [
+            "Creation of CI/CD pipeline templates",
+            "Creation of testing framework templates",
+            "Providing parallel processing mechanisms suitable for autoscaling",
+            "Providing software development libraries for internal use"
+          ],
+          "skills": [
+            "Kubernetes",
+            "KEDA",
+            "Argo",
+            "Go",
+            "Python",
+            "Terraform"
+          ]
+        },
+        {
+          "name": "Backend Engineer",
+          "start": "2023/1",
+          "end": "2024/3",
+          "status": "Full-time",
+          "description": [
+            "Development of a PaaS cloud platform"
+          ],
+          "examples": [
+            "Design, implementation, and operation of a B2B marketplace",
+            "Design & development of external facing APIs"
+          ],
+          "skills": [
+            "Project Management",
+            "Azure",
+            "Kubernetes",
+            "Docker",
+            "Go"
+          ]
+        }
       ]
     },
     {
       "name": "Latona Inc.",
-      "start": "2022/4",
-      "end": "2022/12",
-      "position": "Engineer",
-      "status": "Full-time",
-      "description": [
-        "Maintenance and development internal company infrastructure",
-        "Containerization and deployment of machine learning models",
-        "Prototyping of MVPs",
-        "Creating proposals for clients seeking technical consultations"
-      ],
-      "examples": [
-        "Creation of new company tool for attendance management in Django",
-        "Prototyping of edge device frontends in React",
-        "Maintenance of Ansible scripts for nvidia Jetson edge devices",
-        "Deployment of machine learning models with Docker and Kubernetes onto nvidia Jetson devices."
-      ],
-      "skills": [
-        "Python",
-        "Linux",
-        "Google Cloud",
-        "zeroMQ",
-        "redis",
-        "postgres",
-        "websocket",
-        "Docker",
-        "Go"
+      "positions": [
+        {
+          "name": "Engineer",
+          "start": "2022/4",
+          "end": "2022/12",
+          "status": "Full-time",
+          "description": [
+            "Maintenance and development internal company infrastructure",
+            "Containerization and deployment of machine learning models",
+            "Prototyping of MVPs",
+            "Creating proposals for clients seeking technical consultations"
+          ],
+          "examples": [
+            "Creation of new company tool for attendance management in Django",
+            "Prototyping of edge device frontends in React",
+            "Maintenance of Ansible scripts for nvidia Jetson edge devices",
+            "Deployment of machine learning models with Docker and Kubernetes onto nvidia Jetson devices."
+          ],
+          "skills": [
+            "Python",
+            "Google Cloud",
+            "zeroMQ",
+            "redis",
+            "postgres",
+            "websocket",
+            "Docker",
+            "Go"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personal passion project",
+      "positions": [
+        {
+          "name": "Full-stack Engineer",
+          "start": "2023/2",
+          "end": "Current",
+          "status": "",
+          "description": [
+            "Development of a travel planning mobile app"
+          ],
+          "examples": [
+            "Working towards official release, currently in closed beta"
+          ],
+          "skills": [
+            "Project Management",
+            "Dart",
+            "Flutter",
+            "GCP",
+            "Go",
+            "Figma",
+            "GraphQL"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Archibase",
+      "positions": [
+        {
+          "name": "Full-stack web developer",
+          "start": "2020/11",
+          "end": "2022/3",
+          "status": "Part-time",
+          "description": [
+            "Designed, proposed, and implemented new features for existing web applications",
+            "Automated company tasks with AWS"
+          ],
+          "examples": [
+            "Created Vue frontend and Ruby backends for search autocompletion",
+            "Refactored static search page to single page application",
+            "Implemented free text search that matched to existing database tags",
+            "Deployed web crawlers on AWS Lambda"
+          ],
+          "skills": [
+            "Ruby on rails",
+            "Vue.js",
+            "MySQL",
+            "Docker",
+            "Python",
+            "AWS"
+          ]
+        }
       ]
     }
   ]
