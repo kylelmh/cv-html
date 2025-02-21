@@ -29,7 +29,10 @@ h4 {
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   min-width: 64px;
 }
 
@@ -72,6 +75,7 @@ h1, h2, h3, h4 {
   overflow: hidden;
   border: solid 1px #bbb;
   margin-top: 25px;
+
   img {
     height: 100%;
     width: 100%;
@@ -83,15 +87,17 @@ h1, h2, h3, h4 {
   margin-bottom: 25px;
 }
 
-.p__job{
+.p__job {
   background-color: #eee;
   border-radius: 15px;
   padding: 10px;
   margin: 15px 0;
-	break-inside: avoid !important;
+  break-inside: avoid !important;
+
   &-position {
     margin: 10px 0;
   }
+
   &-position-name {
     font-weight: bold;
   }
@@ -119,6 +125,7 @@ h1, h2, h3, h4 {
 .p__skill_levels {
   display: grid;
   grid-template-columns: auto 1fr;
+
   svg {
     display: inline-block;
     height: 12px;

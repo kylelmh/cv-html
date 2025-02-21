@@ -3,15 +3,15 @@ import SkillCard from "./SkillCard.vue";
 </script>
 
 <template>
-<div class="p__section">
+<div class="p__section u-nobreak">
   <h2> {{$t("skills")}} </h2>
   <div class="p__section u-mb10" v-if="skills.languages">
     <h4 class="u-mb10"> {{$t("languages")}} </h4>
     <div class="p__skills">
       <div class="p__skill_tag" v-for="(lang) in skills.languages">
       <div>
-        {{lang.name}}: 
-      </div> 
+        {{lang.name}}:
+      </div>
       <div>
         {{lang.description}}
       </div>

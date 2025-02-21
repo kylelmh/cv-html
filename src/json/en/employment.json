@@ -4,9 +4,34 @@
       "name": "Sony Semicondutor Solutions Corporation",
       "positions": [
         {
+          "name": "DevOps Tech Lead",
+          "start": "2025/1",
+          "end": "Current",
+          "status": "Full-time",
+          "description": [
+            "Provide overall technical direction for DevOps practices",
+            "Review technical designs and implementations",
+            "Manage tasks for cross national teams"
+          ],
+          "examples": [
+            "Introduced a shared repository for reusable GitHub Actions",
+            "Advised the creation of operation review checksheet for new services",
+            "Created guidelines for database schema migrations",
+            "Started a dashboard showing deployment status and health of all services to encourage CI/CD",
+            "Developed sample code with clean architecture for a service with technical debt",
+            "Improved CD with Flux by introducing automated pull requests to deploy"
+          ],
+          "skills": [
+            "Engineering management",
+            "GitHub Actions",
+            "CI/CD",
+            "Flux"
+          ]
+        },
+        {
           "name": "DevOps Engineer",
           "start": "2024/4",
-          "end": "Current",
+          "end": "2024/12",
           "status": "Full-time",
           "description": [
             "Improving of process of software development",
@@ -16,7 +41,7 @@
             "Creation of CI/CD pipeline templates",
             "Creation of testing framework templates",
             "Providing parallel processing mechanisms suitable for autoscaling",
-            "Providing software development libraries for internal use"
+            "Created tooling to automated the creation of mock services for integration testing"
           ],
           "skills": [
             "Kubernetes",
@@ -37,7 +62,8 @@
           ],
           "examples": [
             "Design, implementation, and operation of a B2B marketplace",
-            "Design & development of external facing APIs"
+            "Design & development of external facing APIs",
+            "Coordinating with adjacent teams for feature integration"
           ],
           "skills": [
             "Project Management",
@@ -65,9 +91,9 @@
           ],
           "examples": [
             "Creation of new company tool for attendance management in Django",
-            "Prototyping of edge device frontends in React",
-            "Maintenance of Ansible scripts for nvidia Jetson edge devices",
-            "Deployment of machine learning models with Docker and Kubernetes onto nvidia Jetson devices."
+            "Creation and operation of vpns for edge devices",
+            "Created an auto-scaling cloud AI application for scoring workouts via video feed",
+            "Served as technical lead for a platform managing edge devices"
           ],
           "skills": [
             "Python",
@@ -94,16 +120,18 @@
             "Development of a travel planning mobile app"
           ],
           "examples": [
+            "Created a mobile app with Flutter",
+            "Implemented a REST backend with Go",
             "Working towards official release, currently in closed beta"
           ],
           "skills": [
-            "Project Management",
             "Dart",
             "Flutter",
+            "Riverpod",
+            "Design Patterns",
             "GCP",
             "Go",
-            "Figma",
-            "GraphQL"
+            "Figma"
           ]
         }
       ]
