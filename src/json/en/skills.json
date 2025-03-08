@@ -6,13 +6,13 @@
       "cert": "TOEFL ibt 116"
     },
     {
-      "name": "Japanese",
-      "description": "Native/bilingual profiency",
-      "cert": "JLPT N1"
-    },
-    {
       "name": "Chinese",
       "description": "Native/bilingual profiency"
+    },
+    {
+      "name": "Japanese",
+      "description": "Business profiency",
+      "cert": "JLPT N1"
     }
   ],
   "programming": [

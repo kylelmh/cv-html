@@ -21,8 +21,8 @@
         <BasicInfo></BasicInfo>
         <h2> {{$t("record")}} </h2>
         <Employment></Employment>
-        <Education></Education>
         <SkillSet></SkillSet>
+        <Education></Education>
       </div>
     </div>
   </div>
