@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import App from './App.vue'
-import {messages} from './locales/app.js'
+import { messages } from './locales/app.js'
 import router from './scripts/router'
 const i18n = createI18n({
-  locale: 'ja',
-  fallbackLocale: 'en',
+  locale: 'en',
+  fallbackLocale: 'ja',
   messages
 })
 

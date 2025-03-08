@@ -21,6 +21,14 @@
               </li>
             </ul>
           </template>
+          <template v-if="p.key_metrics">
+            <div>{{ $t("key_metrics") }}: </div>
+            <ul>
+              <li v-for="(key_metric) in p.key_metrics">
+                {{ key_metric }}
+              </li>
+            </ul>
+          </template>
           <template v-if="p.skills">
             <div class="p__cell-center">{{ $t("skills") }}: </div>
             <ul>

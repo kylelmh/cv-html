@@ -2,6 +2,9 @@
   <div>
     <p class="no-print"> {{ locale }} </p>
     <h1> {{ basic_info.name }} </h1>
+    <div v-if="basic_info.summary" class="u-mb10">
+      <p> {{ basic_info.summary }} </p>
+    </div>
     <div class="flexbox">
       <div>
         <i class="bi-envelope -inline"></i>

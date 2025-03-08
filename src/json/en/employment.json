@@ -14,12 +14,16 @@
             "Manage tasks for cross national teams"
           ],
           "examples": [
-            "Introduced a shared repository for reusable GitHub Actions",
+            "Introduced a shared repository for reusable GitHub Actions to replace deployment shell scripts",
             "Advised the creation of operation review checksheet for new services",
             "Created guidelines for database schema migrations",
             "Started a dashboard showing deployment status and health of all services to encourage CI/CD",
             "Developed sample code with clean architecture for a service with technical debt",
             "Improved CD with Flux by introducing automated pull requests to deploy"
+          ],
+          "key_metrics": [
+            "Reduced setup time for new CI/CD pipelines by 50% with shared GitHub Actions",
+            "Reduced deployment lead time from hours to minutes with automated pull requests"
           ],
           "skills": [
             "Engineering management",
@@ -41,12 +45,16 @@
             "Creation of CI/CD pipeline templates",
             "Creation of testing framework templates",
             "Providing parallel processing mechanisms suitable for autoscaling",
-            "Created tooling to automated the creation of mock services for integration testing"
+            "Created tooling to automate the creation of mock services for integration testing"
+          ],
+          "key_metrics": [
+            "Reduced cloud computing costs by over 50% with event-driven autoscaling",
+            "Improved deployment success rate and frequency with CI/CD pipelines"
           ],
           "skills": [
             "Kubernetes",
             "KEDA",
-            "Argo",
+            "Argo Workflows",
             "Go",
             "Python",
             "Terraform"
@@ -63,13 +71,17 @@
           "examples": [
             "Design, implementation, and operation of a B2B marketplace",
             "Design & development of external facing APIs",
-            "Coordinating with adjacent teams for feature integration"
+            "Coordinating with adjacent teams for feature integration",
+            "Improved developer productivity by simplifying unit tests"
+          ],
+          "key_metrics": [
+            "Reduced unit test cyclomatic complexity by an order of magnitude (hundreds to tens)",
+            "Reduced API latency by over 50% with optimized database queries"
           ],
           "skills": [
             "Project Management",
             "Azure",
             "Kubernetes",
-            "Docker",
             "Go"
           ]
         }
@@ -90,18 +102,17 @@
             "Creating proposals for clients seeking technical consultations"
           ],
           "examples": [
-            "Creation of new company tool for attendance management in Django",
             "Creation and operation of vpns for edge devices",
-            "Created an auto-scaling cloud AI application for scoring workouts via video feed",
-            "Served as technical lead for a platform managing edge devices"
+            "Rearchitectured an auto-scaling cloud AI application for scoring workouts via video feed"
+          ],
+          "key_metrics": [
+            "Improved cloud AI performance by at least 100% by rewriting compute-intensive code in Cython",
+            "Reduced cloud AI latency by at least 50% by optimizing video processing pipeline"
           ],
           "skills": [
             "Python",
             "Google Cloud",
             "zeroMQ",
-            "redis",
-            "postgres",
-            "websocket",
             "Docker",
             "Go"
           ]

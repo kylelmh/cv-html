@@ -11,7 +11,8 @@ export const messages = {
     work_description: "Work description",
     skills: "Skills",
     languages: "Languages",
-    planguages: "Software skills"
+    planguages: "Software skills",
+    key_metrics: "Key Metrics",
   },
   ja: {
     cv: "履歴書",
@@ -26,5 +27,6 @@ export const messages = {
     skills: "スキル",
     languages: "言語",
     planguages: "ソフトウェアスキル",
+    key_metrics: "成果",
   }
 }

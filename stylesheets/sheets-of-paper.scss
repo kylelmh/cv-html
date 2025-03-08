@@ -4,7 +4,8 @@
  * Licensed under the MIT License (https://opensource.org/licenses/MIT)
  */
 
- html, body {
+html,
+body {
 	/* Reset the document's margin values */
 	margin: 0;
 	/* Reset the document's padding values */
@@ -19,12 +20,14 @@
 	/* Use a non-white background color to make the content areas stick out from the full page box */
 	background-color: #eee;
 }
+
 /* Styles that are shared by all elements */
 * {
 	/* Include the content box as well as padding and border for precise definitions */
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
+
 .page {
 	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
 
@@ -37,12 +40,15 @@
 	/* Override outline from user agent stylesheets */
 	outline: 0;
 }
+
 /* Defines a class for manual page breaks via inserted .page-break element */
 div.page-break {
 	page-break-after: always;
 }
+
 /* Simulates the behavior of manual page breaks from `print` mode in `screen` mode */
 @media screen {
+
 	/* Renders the border and shadow at the bottom of the upper virtual page */
 	div.page-break::before {
 		content: "";
@@ -58,6 +64,7 @@ div.page-break {
 		/* Show a drop shadow beneath the upper virtual page */
 		box-shadow: 0 6px 5px rgba(75, 75, 75, 0.2);
 	}
+
 	/* Renders the empty space as a divider between the two virtual pages that are actually two parts of the same page */
 	div.page-break {
 		display: block;
@@ -75,37 +82,44 @@ div.page-break {
 		background: #eee;
 	}
 }
+
 /* For top-level headings only */
-h1 {
-	/* Force page breaks after */
-	page-break-before: always;
-}
 /* For all headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	/* Avoid page breaks immediately */
 	page-break-after: avoid;
 }
+
 /* For all paragraph tags */
 p {
 	/* Reset the margin so that the text starts and ends at the expected marks */
 	margin: 0;
 }
+
 /* For adjacent paragraph tags */
-p + p {
+p+p {
 	/* Restore the spacing between the paragraphs */
 	margin-top: 0.5cm;
 }
+
 /* For links in the document */
 a {
 	/* Prevent colorization or decoration */
 	text-decoration: none;
 	color: black;
 }
+
 /* For tables in the document */
 table {
 	/* Avoid page breaks inside */
 	page-break-inside: avoid;
 }
+
 /* Use CSS Paged Media to switch from continuous documents to sheet-like documents with separate pages */
 @page {
 	/* You can only change the size, margins, orphans, widows and page breaks here */
@@ -115,12 +129,16 @@ table {
 	/* Require that at least this many lines of a paragraph must be left at the top of a new page */
 	widows: 2;
 }
+
 /* When the document is actually printed */
 @media print {
-	html, body {
+
+	html,
+	body {
 		/* Reset the document's background color */
 		background-color: #fff;
 	}
+
 	.page {
 		/* Reset all page styles that have been for better screen appearance only */
 		/* Break cascading by using the !important rule */

@@ -36,6 +36,10 @@ h4 {
   min-width: 64px;
 }
 
+p {
+  text-align: justify;
+}
+
 .p__basic_info {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -92,10 +96,11 @@ h4 {
   border-radius: 15px;
   padding: 10px;
   margin: 15px 0;
-  break-inside: avoid !important;
+  box-decoration-break: clone;
 
   &-position {
     margin: 10px 0;
+    break-inside: avoid;
   }
 
   &-position-name {
