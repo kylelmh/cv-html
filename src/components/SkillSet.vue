@@ -1,6 +1,6 @@
 <template>
 <div class="p__section u-nobreak">
-  <h2> {{$t("skills")}} </h2>
+  <h2> {{$t("languages")}} </h2>
   <div class="p__section u-mb10" v-if="skills.languages">
     <div class="p__skills">
       <div class="p__skill_tag" v-for="(lang) in skills.languages">
