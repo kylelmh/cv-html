@@ -44,7 +44,8 @@
           "examples": [
             "Creation of CI/CD pipeline templates",
             "Creation of testing framework templates",
-            "Providing parallel processing mechanisms suitable for autoscaling",
+            "Provided machine learning pipeline proof of concepts with Argo workflows on Kubernetes",
+            "Provided event-driven autoscaling proof-of-concepts in Kubernetes KEDA",
             "Created tooling to automate the creation of mock services for integration testing"
           ],
           "key_metrics": [
