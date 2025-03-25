@@ -73,7 +73,8 @@
             "Design, implementation, and operation of a B2B marketplace",
             "Design & development of external facing APIs",
             "Coordinating with adjacent teams for feature integration",
-            "Improved developer productivity by simplifying unit tests"
+            "Improved developer productivity by simplifying unit tests",
+            "Managed security development lifecycle of the platform"
           ],
           "key_metrics": [
             "Reduced unit test cyclomatic complexity by an order of magnitude (hundreds to tens)",
