@@ -17,9 +17,10 @@
             "Introduced a shared repository for reusable GitHub Actions to replace deployment shell scripts",
             "Advised the creation of operation review checksheet for new services",
             "Created guidelines for database schema migrations",
-            "Started a dashboard showing deployment status and health of all services to encourage CI/CD",
             "Developed sample code with clean architecture for a service with technical debt",
-            "Improved CD with Flux by introducing automated pull requests to deploy"
+            "Improved CD with Flux with automated pull requests for deployment",
+            "Designed a dashboard showing deployment status and health of all services to encourage CI/CD",
+            "Leading the implementation of a centralized developer portal to aggregate existing DevOps tooling (ongoing with Backstage)"
           ],
           "key_metrics": [
             "Reduced setup time for new CI/CD pipelines by 50% with shared GitHub Actions",
