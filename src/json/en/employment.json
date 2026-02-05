@@ -1,12 +1,43 @@
 {
   "data": [
     {
+      "name": "Amazon Web Services Japan",
+      "positions": [
+        {
+          "name": "DevOps Consultant",
+          "start": "2025/9",
+          "end": "Current",
+          "status": "Full-time",
+          "description": [
+            "Clarify technical requirements of customers and propose technical designs",
+            "Build production-ready features based on proposed technical designs",
+            "Provide technical direction for DevOps practices both internally and externally",
+            "Review technical designs and implementations"
+          ],
+          "examples": [
+            "Co-design and implemented a horizontal autoscaling CI/CD VM runner for native (non-container) workloads",
+            "Implemented full stack UI to manage CI/CD VM runner using Backstage",
+            "Performed KT sessions with customer for long-term technical sustainability"
+          ],
+          "skills": [
+            "AWS",
+            "IaC",
+            "Scrum",
+            "Consulting",
+            "CI/CD",
+            "Typescript",
+            "Python"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Sony Semicondutor Solutions Corporation",
       "positions": [
         {
           "name": "DevOps Tech Lead",
           "start": "2025/1",
-          "end": "Current",
+          "end": "2025/6",
           "status": "Full-time",
           "description": [
             "Provide overall technical direction for DevOps practices",
@@ -67,9 +98,7 @@
           "start": "2023/1",
           "end": "2024/3",
           "status": "Full-time",
-          "description": [
-            "Development of a PaaS cloud platform"
-          ],
+          "description": ["Development of a PaaS cloud platform"],
           "examples": [
             "Design, implementation, and operation of a B2B marketplace",
             "Design & development of external facing APIs",
@@ -81,12 +110,7 @@
             "Reduced unit test cyclomatic complexity by an order of magnitude (hundreds to tens)",
             "Reduced API latency by over 50% with optimized database queries"
           ],
-          "skills": [
-            "Project Management",
-            "Azure",
-            "Kubernetes",
-            "Go"
-          ]
+          "skills": ["Project Management", "Azure", "Kubernetes", "Go"]
         }
       ]
     },
@@ -112,13 +136,7 @@
             "Improved cloud AI performance by at least 100% by rewriting compute-intensive code in Cython",
             "Reduced cloud AI latency by at least 50% by optimizing video processing pipeline"
           ],
-          "skills": [
-            "Python",
-            "Google Cloud",
-            "zeroMQ",
-            "Docker",
-            "Go"
-          ]
+          "skills": ["Python", "Google Cloud", "zeroMQ", "Docker", "Go"]
         }
       ]
     },
@@ -130,9 +148,7 @@
           "start": "2023/2",
           "end": "Current",
           "status": "",
-          "description": [
-            "Development of a travel planning mobile app"
-          ],
+          "description": ["Development of a travel planning mobile app"],
           "examples": [
             "Created a mobile app with Flutter",
             "Implemented a REST backend with Go",

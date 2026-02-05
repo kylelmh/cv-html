@@ -1,8 +1,9 @@
-@import "utils.scss";
+@use "sass:meta";
+@use "utils.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
-@import "globals.scss";
-@import "sp/globals.scss";
-@import "sheets-of-paper-a4.scss";
-@import "cv.scss";
-@import "sp/cv.scss";
+@include meta.load-css("globals.scss");
+@include meta.load-css("sp/globals.scss");
+@include meta.load-css("sheets-of-paper-a4.scss");
+@include meta.load-css("cv.scss");
+@include meta.load-css("sp/cv.scss");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');

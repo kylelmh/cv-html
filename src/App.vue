@@ -1,5 +1,5 @@
 <script setup>
-  import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -17,20 +17,20 @@
 export default {
   computed: {
     locale() {
-      return this.$i18n.locale
-    }
+      return this.$i18n.locale;
+    },
   },
   methods: {
-    print(){
-      window.print()
+    print() {
+      window.print();
     },
     setLocale(e) {
-      this.$i18n.locale = e
-    }
-  }
-}
+      this.$i18n.locale = e;
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import "../stylesheets/main.scss"
+@use "../stylesheets/main.scss";
 </style>
